@@ -1,0 +1,24 @@
+{
+  "name": "restaurant-booking-app",
+  "version": "1.0.0",
+  "description": "Full-stack restaurant booking application with web and mobile apps",
+  "scripts": {
+    "backend-start": "cd backend && npm run dev",
+    "web-start": "cd web && npm start",
+    "mobile-start": "cd mobile && npm start",
+    "backend-install": "cd backend && npm install",
+    "web-install": "cd web && npm install",
+    "mobile-install": "cd mobile && npm install"
+  },
+  "keywords": [
+    "restaurant",
+    "booking",
+    "reservation",
+    "seat",
+    "nodejs",
+    "react",
+    "react-native"
+  ],
+  "author": "",
+  "license": "MIT"
+}

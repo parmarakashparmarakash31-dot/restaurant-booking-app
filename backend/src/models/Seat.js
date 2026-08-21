@@ -36,7 +36,6 @@ const seatSchema = new mongoose.Schema({
   }
 });
 
-// Compound index for finding available seats
 seatSchema.index({ restaurantId: 1, isAvailable: 1 });
 
 module.exports = mongoose.model('Seat', seatSchema);
